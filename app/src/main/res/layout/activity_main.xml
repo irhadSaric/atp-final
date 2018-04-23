@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.user.liveatpranking.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/igracispis"
+        android:text="ATP"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/svijetloPlava"
+        android:id="@+id/sviATP"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/igracispis"
+        android:textColor="@color/svijetloPlava"
+        android:text="ATP U25"
+        android:textAlignment="center"
+        android:id="@+id/U25"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/igracispis"
+        android:textColor="@color/svijetloPlava"
+        android:text="ATP U21"
+        android:textAlignment="center"
+        android:id="@+id/U21"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/svijetloPlava"
+        android:text="Morate se konektovati na internet !"
+        android:id="@+id/konekcija"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/igracispis"
+        android:text="WTA"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/svijetloPlava"
+        android:id="@+id/sviWTA"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/igracispis"
+        android:textColor="@color/svijetloPlava"
+        android:text="WTA U25"
+        android:textAlignment="center"
+        android:id="@+id/U25z"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/igracispis"
+        android:textColor="@color/svijetloPlava"
+        android:text="WTA U21"
+        android:textAlignment="center"
+        android:id="@+id/U21z"/>
+
+</LinearLayout>

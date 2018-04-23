@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/scroll"
+    tools:context="com.example.user.liveatpranking.IgracActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/iID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/svijetloPlava"
+            android:background="@drawable/igracispis"
+            android:id="@+id/pId"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            android:textSize="20dp"
+            android:textColor="@color/svijetloPlava"
+            android:id="@+id/CHID2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@drawable/igracispis">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/svijetloPlava"
+                android:id="@+id/imeDrzID"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="10dp"
+                android:minWidth="35dp"
+                android:maxWidth="35dp"
+                android:minHeight="30dp"
+                android:maxHeight="30dp"
+                android:id="@+id/zID"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/pnID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            android:id="@+id/gID"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/bID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/pnaID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/mID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/tID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/nID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/svijetloPlava"
+            android:textSize="20dp"
+            android:id="@+id/mxID"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/igracispis"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
